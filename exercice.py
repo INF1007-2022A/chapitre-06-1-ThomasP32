@@ -4,6 +4,10 @@
 
 def order(values: list = None) -> list:
     if values is None:
+        values = []
+        while len(values) < 10 :
+            values.append = input("Entrer une valeur :")
+            values += 1
         # TODO: demander les valeurs ici
         pass
 
